@@ -21,7 +21,7 @@ export default function Playground() {
             <div>
                 Console Free JS Runs.
                 <textarea
-                    className="w-full text-blue-300/80 mt-2 h-100 p-2 rounded bg-secondary font-mono"
+                    className="w-full text-blue-900/80 mt-2 h-100 p-2 rounded bg-secondary font-mono"
                     value={code}
                     placeholder="Enter Input here"
                     onChange={(e) => setCode(e.target.value)}
