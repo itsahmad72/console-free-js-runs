@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Antonio", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-padding: 3rem;
+}
+
+:root {
+  --background: rgb(37 40 44);
+  --foreground: #ffffff;
+  --secondary: rgb(29 31 33);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.bg-secondary {
+  background: var(--secondary);
+}
+
+.btn.push {
+  cursor: pointer;
+  background: #4CAF50;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px #0c7611;
+}
+.btn.push:active {
+  box-shadow: 0 2px #0c7611;
+  transform: translateY(4px);
+}
